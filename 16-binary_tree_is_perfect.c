@@ -24,7 +24,6 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 		return (1);
 	else
 		return (0);
-
 }
 /**
   * binary_tree_height1 - measures the height of a binary tree
@@ -69,4 +68,3 @@ int binary_tree_size1(const binary_tree_t *tree)
 
 	return (count_l + count_r - 1);
 }
-
